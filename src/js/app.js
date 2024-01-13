@@ -39,7 +39,6 @@ rangeInputEl.addEventListener("input", (e) => {
   } else {
     mainPrice.textContent = `$${monthlyPrice}`;
   }
-  console.log(mainPrice);
 
   if (rangeValue >= 1000) {
     prefix = "M";
