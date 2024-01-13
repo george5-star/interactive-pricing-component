@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Project Screenshot](./screenshot.jpg)
+![Project Screenshot](./src/assets/images/Project-Screenshot.png)
 
 ## My process
 
@@ -43,8 +43,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Smashing magazine](https://www.smashingmagazine.com/2021/12/create-custom-range-input-consistent-browsers/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Smashing magazine](https://www.smashingmagazine.com/2021/12/create-custom-range-input-consistent-browsers/) - This website helped me create the custom range slider by removing the default styles.
 
 ## Author
 
