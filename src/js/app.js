@@ -34,7 +34,12 @@ rangeInputEl.addEventListener("input", (e) => {
   ).toFixed(2);
   yearlyPrice = (monthlyPrice * 12 * 0.75).toFixed(2);
 
-  mainPrice.textContent = `$${monthlyPrice}`;
+  if (toggleIndicator.classList.contains("clicked")) {
+    mainPrice.textContent = `$${yearlyPrice}`;
+  } else {
+    mainPrice.textContent = `$${monthlyPrice}`;
+  }
+  console.log(mainPrice);
 
   if (rangeValue >= 1000) {
     prefix = "M";
